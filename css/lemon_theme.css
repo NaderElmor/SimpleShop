@@ -1,0 +1,50 @@
+.option-box .color-box,
+.testi .carousel-indicators li.active
+{
+    border: 4px solid #ffa700;
+}
+
+.products .thumbnail:hover
+{
+    border: 3px solid #ffa700;
+}
+
+.carousel-indicators li
+{
+    border: 1px solid #ffa700;
+}
+
+
+
+/* background color */
+.option-box .gear-check,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li>a:hover,
+.btn-group > .btn:first-child,
+.products .product-box .label,
+.carousel-indicators .active,
+.contact .data form button
+{
+    background-color: #ffa700;
+}
+
+
+/* color */
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus,
+.testi span,
+h1 span,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a,
+.carousel-caption .mybg .label,
+.footer .copyright span,
+.footer h3
+{
+    color: #ffa700;
+}
+
+
+

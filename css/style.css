@@ -1,0 +1,598 @@
+*
+{
+    
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*For starting the design after the nav*/
+body{padding-top: 50px}
+
+h2{font-size: 36px;}
+
+/**Start Bootstarp Overriding**/
+
+/**start Nav bar**/
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a .brand
+{ 
+    font-size: 36px;
+}
+
+.navbar-nav > li > .dropdown-menu
+{
+    background-color: #252f2b;
+    min-width:175px; 
+    left: 0;
+}
+
+.dropdown-menu > li > a
+{
+    margin-right: 83px;
+    width: 100%;
+    padding: 3px 10px;
+}
+
+.dropdown-menu > li>a:hover{padding-left: 25px}
+    
+
+container > .navbar-header, .container-fluid > .navbar-header,
+.container > .navbar-collapse, .container-fluid > .navbar-collapse
+{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+/**End Nav bar**/
+
+
+/**start carousel **/
+.carousel-caption{padding-bottom: 180px;}
+
+.carousel-inner > .item > img{width: 100%}
+
+.carousel-caption .mybg .label
+{
+    font-size: 80px;
+    font-stretch: expanded;
+ 
+}
+
+.label span{color: #e0d4d4;}
+
+.carousel-caption .mybg
+{
+    background-color: rgba(1,1,1,0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+}
+
+.btn-group > .btn:first-child
+{
+    margin-left: 0;
+    padding: 20px;
+    font-size: 25px;
+    border: 0; 
+}
+/**End carousel **/
+
+
+/**start about section **/
+.about .lead{color: #777;}
+/**about section **/
+
+
+/**feat section **/
+
+
+.features .glyphicon
+{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.features .glyphicon:hover {transform: scale(1.2,1.2) rotate(360deg);}
+
+/**feat section **/
+
+
+/**testi section **/
+
+.testi p{margin-top: 20px;}
+
+.testi span{font-size: 25px; margin-top:5px;}
+
+.testi .carousel-indicators
+{
+    position: static;
+    margin: auto;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.testi .carousel-indicators li
+{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    margin-right: 40px;
+    text-indent: 0;
+    border: 3px solid #FFF;
+    opacity: 0.4;
+    overflow: hidden;
+}
+.testi .carousel-indicators li.active{opacity: 1;}
+
+.testi .carousel-indicators li img{max-width: 100%;}
+/**End testi section **/
+
+
+/**products table section **/
+.products h1{margin-bottom: 30px;}
+
+.products .thumbnail{border: 3px solid #EEE; overflow:hidden;}
+
+.products .thumbnail img{width: 100%;}
+
+.products .thumbnail:hover img{transform: scale(1.1,1.1);}
+
+.products thumbnail img{max-width: 100%;max-height: 100%;}
+
+.products .label
+{
+    padding: 20px 40px;
+    font-size: 20px;
+    margin: 20px;
+}
+/**End products table section **/
+
+/**  ٍSection subscribe **/
+.subsrcibe h1,.subsrcibe p{margin-bottom: 20px;}
+
+.subsrcibe  .form-inline .form-control
+{
+    border-radius:0;
+    width: 300px;
+    margin-right: -9px;
+}
+
+.subsrcibe  .form-inline button{border-radius: 0;}
+/**  ٍSection subsrcibe **/
+
+
+/** Section statistics **/
+.stats
+{
+    background: url('../images/stats.jpg') no-repeat center center fixed;
+    min-height: 325px;
+}
+
+.stats .data
+{
+    background-color: rgba(2,2,2,0.7);
+    min-height: 325px;
+    color: #B6B5B5;
+    padding-top: 30px;
+}
+
+.stats .data h1{margin-bottom: 40px;}
+
+.stats .data .astat{margin-bottom: 30px;}
+
+.stats .data .astat p{font-size: 40px;margin-bottom: 0;}
+
+.stats .data .astat span{font-size: 20px;}
+/** Section statistics **/
+
+/** Section contact **/
+
+.contact
+{
+    background: url('../images/contact.jpg') no-repeat center center fixed;
+    min-height: 400px;
+}
+
+
+.contact .data
+{
+    padding-top: 40px;
+    background-color: rgba(1,1,1,.9);
+    min-height: 400px;
+}
+
+.contact .data h2{margin-top: 5px;}
+
+.contact .data form textarea{height: 107px}
+
+.contact .data form button{height: 46px;font-size: 20px;}
+
+
+.contact .data form textarea,
+.contact .data form input
+{
+    background-color: rgba(38, 36, 36, 0.7);
+    border: 0;
+}
+/** Section contact **/
+
+
+
+/** Section footer **/
+.footer
+{
+    background-color: #333;
+    color: #AAA;
+    padding-top: 20px;
+}
+
+.footer h3{margin: 30px 0 20px;}
+
+.footer .three-cols{overflow: hidden}
+
+.footer .three-cols li 
+{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+
+.footer li {color: #AAA}
+
+.footer .social {overflow: hidden; margin: 20px 0;}
+
+.footer .social  li
+{
+    float: left;
+    margin-right: 19px;
+    opacity: 0.6;
+}
+
+.footer .social  li:hover{opacity: 1;}
+
+
+
+.footer .media{padding-top: 10px;padding-left: 10px;}
+
+.footer .media:hover{background-color: #484646;}
+
+.footer .copyright
+{
+    background-color: #222;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/** Section footer **/
+
+
+/* section option box*/
+.option-box
+{
+    position: fixed;
+    left: 0;
+    top: 100px;
+    z-index: 9999;
+}
+
+.option-box .color-box
+{
+    float: left;
+    background-color: #333;
+    width: 158px;
+    height: 100px;
+    padding: 10px;
+    display: none; 
+}
+
+
+.option-box .color-box ul li
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+.option-box .color-box ul li[data-value="css/default_theme.css"]{background-color: #FF4040}
+.option-box .color-box ul li[data-value="css/purple_theme.css"]{background-color: #8874a3}
+.option-box .color-box ul li[data-value="css/sky_theme.css"]{background-color: #2ab7ca}
+.option-box .color-box ul li[data-value="css/lemon_theme.css"]{background-color: #ffa700}
+.option-box .color-box ul li[data-value="css/pink_theme.css"]{background-color: #f6abb6}
+
+
+
+.option-box .gear-check{padding: 5px}
+/* section option box*/
+
+
+/** Section loading **/
+.loading
+{
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    color: #FF4040;
+}
+
+/*The animation of the loading*/
+.overlay-loader
+{
+	display: block;
+	margin: auto;
+	width: 213px;
+	height: 213px;
+	position: relative;
+	top: 200px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 213px;
+	height: 213px;
+	animation-name: rotateAnim;
+		-o-animation-name: rotateAnim;
+		-ms-animation-name: rotateAnim;
+		-webkit-animation-name: rotateAnim;
+		-moz-animation-name: rotateAnim;
+	animation-duration: 0.4s;
+		-o-animation-duration: 0.4s;
+		-ms-animation-duration: 0.4s;
+		-webkit-animation-duration: 0.4s;
+		-moz-animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+		-o-animation-timing-function: linear;
+		-ms-animation-timing-function: linear;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+}
+
+.loader div {
+	width: 17px;
+	height: 17px;
+	border: 2px solid rgb(255,64,64);
+	position: absolute;
+	top: 4px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.loader div:nth-child(odd) {
+	border-top: none;
+	border-left: none;
+}
+.loader div:nth-child(even) {
+	border-bottom: none;
+	border-right: none;
+}
+.loader div:nth-child(2) {
+	border-width: 4px;
+	left: 0px;
+	top: -9px;
+	width: 26px;
+	height: 26px;
+}
+.loader div:nth-child(3) {
+	border-width: 4px;
+	left: -2px;
+	top: 6px;
+	width: 38px;
+	height: 38px;
+}
+.loader div:nth-child(4) {
+	border-width: 6px;
+	left: -2px;
+	top: -9px;
+	width: 51px;
+	height: 51px;
+}
+.loader div:nth-child(5) {
+	border-width: 6px;
+	left: -2px;
+	top: 9px;
+	width: 68px;
+	height: 68px;
+}
+.loader div:nth-child(6) {
+	border-width: 9px;
+	left: 0px;
+	top: -9px;
+	width: 85px;
+	height: 85px;
+}
+.loader div:nth-child(7) {
+	border-width: 9px;
+	left: 0px;
+	top: 13px;
+	width: 106px;
+	height: 106px;
+}
+
+
+@keyframes rotateAnim {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+@-o-keyframes rotateAnim {
+	from {
+		-o-transform: rotate(360deg);
+	}
+	to {
+		-o-transform: rotate(0deg);
+	}
+}
+
+@-ms-keyframes rotateAnim {
+	from {
+		-ms-transform: rotate(360deg);
+	}
+	to {
+		-ms-transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes rotateAnim {
+	from {
+		-webkit-transform: rotate(360deg);
+	}
+	to {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes rotateAnim {
+	from {
+		-moz-transform: rotate(360deg);
+	}
+	to {
+		-moz-transform: rotate(0deg);
+	}
+}
+/** Section loading **/
+
+/* scrolltop */
+.scrolltop
+{
+    background-color: rgb(170, 170, 170,0.4);
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-top: 2px;
+    position: fixed;
+    right: 30px;
+    bottom: 85px;
+    display: none; 
+}
+/* scrolltop */
+
+
+/* Start grouping */
+.navbar-inverse .navbar-brand span,
+.stats .data .astat:hover,
+.contact .data,
+.contact .data form textarea,
+.contact .data form input,
+.footer li:hover,
+.option-box .color-box,
+.option-box .gear-check
+{
+    color: #FFF;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li>a:hover
+{
+    color: #252f2b;
+}
+
+.dropdown-menu > li > a,
+.testi .carousel-indicators li,
+.products .thumbnail:hover img,
+.products .thumbnail:hover,
+.features .glyphicon:hover,
+.stats .data .astat:hover,
+.footer .social  li,
+.footer .media:hover
+{
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.about, .features, .testi, .subsrcibe
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.features, .products, .subsrcibe
+{
+    background-color: #EEE;
+}
+
+.testi .carousel-indicators li,
+.option-box .color-box ul li,
+.loader div,
+.scrolltop
+{
+    border-radius: 50%;
+}
+
+.products .label,
+.footer li:hover,
+.footer .social  li:hover,
+.footer .media:hover,
+.option-box .color-box ul li,
+.option-box .gear-check,
+.scrolltop
+{
+    cursor: pointer;
+}
+
+
+/* Pulse shrink when hover effect from hover.css library */
+
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.features
+{overflow: hidden}

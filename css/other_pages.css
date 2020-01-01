@@ -1,0 +1,99 @@
+
+/*Start about page*/
+.breadcrumb{background-color: #FFF; margin: 0}
+
+.about-word
+{
+    padding-top: 30px;
+}
+
+.about-word h1
+{
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 5px
+}
+
+.about-word p {
+    
+    color: #777;
+    
+}
+
+
+.about-founder {
+    
+    background-color: #EEE;
+    font-weight: bold;
+}
+
+.about-founder .thumbnail {
+    width: 50%;
+    padding: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 95px;
+    margin-bottom: 5px;
+}
+
+.about-founder .thumbnail img{width: 100%;border-radius: 20px;}
+
+.about-founder .about-contact{margin-left: 2px}
+
+.about-founder .about-contact a{}
+/*End about page*/
+/*************************************************************************/
+/* Start FAQ page */
+.faq {
+    
+    background: url('../images/faq.jpg') no-repeat no-repeat center fixed;
+}
+
+.faq .faq-data {
+    
+    background-color: rgba(3,3,3,0.6);
+}
+
+.faq .faq-data  h1 {
+    
+    color: #dbdbdb;
+    font-weight: bolder;
+    letter-spacing: -3;
+    font-size: 50px;
+}
+
+.faq .faq-data  p {
+    
+    color: #dbdbdb;
+    font-weight: bolder;
+    letter-spacing: -3;
+    font-size: 25px;
+}
+.faq .faq-data .panel-default > .panel-heading a{text-decoration: none;color: #777}
+.faq .faq-data .panel-default > .panel-heading a:focus{color: #000;font-weight: 900}
+.faq .faq-data .panel-default > .panel-heading a:after {
+    
+    content: "\2212";
+    font-family: "Helvetica Neue";
+    float: right;
+}
+
+.faq .faq-data .panel-default > .panel-heading a.collapsed:after {
+    
+    content: "\002b";
+    font-family: "Helvetica Neue";
+    float: right;
+}
+/* End FAQ page */
+
+
+
+
+
+
+
+
+
+
+
+
